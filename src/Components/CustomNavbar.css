@@ -1,7 +1,15 @@
 
 
 /* Estilo para enlaces de navegación */
-Nav a {
+Nav a  {
+  padding: 1%;
+  margin: 2%;
+  display: inline-block;
+  width: 20%;
+  height: 10%;
+}
+
+.link  {
   text-decoration: none;
   color: white;
   padding: 1%;
@@ -9,24 +17,15 @@ Nav a {
   display: inline-block;
   width: 20%;
   height: 10%;
-  
+  text-align: center;
 }
 
 /* Estilo de hover para enlaces de navegación */
-Nav a:hover {
+.link:hover {
   color: rgb(228, 221, 221);
   text-decoration: underline;
 }
 
-/* Estilo de hover para enlaces de navegación en dispositivos móviles */
-@media only screen and (max-width: 900px) {
-  Nav a:hover {
-    color: rgb(228, 221, 221);
-    text-decoration: underline;
-  }
-
-
-}
 
 
 

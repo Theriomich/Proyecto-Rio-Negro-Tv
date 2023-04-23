@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+    color:white;
+    text-shadow: 1px 1px 3px #000000;
+    
+}
+
+
+.content  {
+    background-image: url('../Multimedia/Contenido img/FONDO.jpg') ;
+    background-size: cover;
+    width: 100%;   
+  }
+
+  .content h1 {
+   
+      padding-top: 50px;
+  }
+
+

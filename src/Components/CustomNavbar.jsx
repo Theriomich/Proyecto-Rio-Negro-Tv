@@ -16,7 +16,7 @@ const CustomNavbar = () => {
         background:
           "linear-gradient(54deg, rgba(240,155,6,0.9668242296918768) 34%, rgba(143,87,2,1) 58%, rgba(137,84,3,1) 71%, rgba(15,15,15,0.5634628851540616) 91%)",
         color: "white",
-        border: "ridge 7px",
+        borderBottom: "white 4px solid",
       }}
     >
       <Container>
@@ -26,25 +26,30 @@ const CustomNavbar = () => {
             style={{
               width: "80%",
               height: "70%",
-              borderRadius: "15%",
+              borderRadius: "5%",
+              border: "white 5px solid",
             }}
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Link to="/Content">Contenido</Link>
-            <Link to="/Channels/">Canales</Link>
-            <Link as={NavLink} to="/Poduction Center/">
+            <Link className="link" to="/Content">
+              Contenido
+            </Link>
+            <Link className="link" to="/Channels/">
+              Canales
+            </Link>
+            <Link className="link" as={NavLink} to="/Poduction Center/">
               Centro de Producciones
             </Link>
-            <Link as={NavLink} to="/Television Mobiles/">
+            <Link className="link" as={NavLink} to="/Television Mobiles/">
               Moviles de Televisión
             </Link>
-            <Link as={NavLink} to="/Transmissions/">
+            <Link className="link" as={NavLink} to="/Transmissions/">
               Transmisiones
             </Link>
-            <Link as={NavLink} to="/Rights Management/">
+            <Link className="link" as={NavLink} to="/Rights Management/">
               Gestión de Derechos
             </Link>
           </Nav>

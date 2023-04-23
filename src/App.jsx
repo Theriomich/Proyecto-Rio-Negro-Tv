@@ -6,7 +6,7 @@ import ProductionCenter from "./Components/ProductionCenter";
 import TelevisionMobiles from "./Components/Televisionmobiles";
 import Transmissions from "./Components/Transmissions";
 import RightsManagement from "./Components/RightsManagement";
-
+import CustomNavbar from "./Components/CustomNavbar";
 function App() {
   const router = createBrowserRouter([
     {
@@ -23,7 +23,9 @@ function App() {
 
   return (
     <>
-      <RouterProvider router={router} />
+      <RouterProvider router={router}>
+        <CustomNavbar />
+      </RouterProvider>
     </>
   );
 }

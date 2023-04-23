@@ -1,5 +1,11 @@
+import CustomLayout from "./CustomLayout";
+
 function ProductionCenter() {
-  return <h1>Soy Centro de Producciones</h1>;
+  return (
+    <CustomLayout>
+      <h1>Soy Centro de Producciones</h1>;
+    </CustomLayout>
+  );
 }
 
 export default ProductionCenter;

@@ -1,0 +1,35 @@
+.text-and-image-container {
+    width: 100%;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-image {
+    width: 50%;
+    max-width: 400px;
+   height: auto;
+   border: white 4px auto;   
+   border-radius: 10px;
+
+}
+
+.container-text {
+    width: 50%;
+    max-width: 400px;
+    color: white;
+    text-shadow: 1px 1px 3px #000000;
+    text-align: center;
+    background-color: #00000066;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+@media (max-width: 900px) {
+    .container-image, .container-text {
+        width: 100%;
+    }
+}
