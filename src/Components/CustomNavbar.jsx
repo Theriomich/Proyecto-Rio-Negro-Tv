@@ -24,8 +24,8 @@ const CustomNavbar = () => {
           <img
             src={logoBlack}
             style={{
-              width: "70%",
-              height: "60%",
+              width: "80%",
+              height: "70%",
               borderRadius: "15%",
             }}
           />
@@ -33,12 +33,8 @@ const CustomNavbar = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Link as={NavLink} to="/Content">
-              Contenido
-            </Link>
-            <Link as={NavLink} to="/Channels/">
-              Canales
-            </Link>
+            <Link to="/Content">Contenido</Link>
+            <Link to="/Channels/">Canales</Link>
             <Link as={NavLink} to="/Poduction Center/">
               Centro de Producciones
             </Link>
