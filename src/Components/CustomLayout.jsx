@@ -1,5 +1,6 @@
 import CustomNavbar from "./CustomNavbar";
 import "./CustomLayout.css";
+import logofooter from "../Multimedia/logo2.png";
 
 function CustomLayout(prop) {
   const children = prop.children;
@@ -10,13 +11,14 @@ function CustomLayout(prop) {
       <footer
         className="footer"
         style={{
-          backgroundColor: "rgb(240,155,6)",
+          backgroundColor: "rgb(33,32,31)",
           background:
-            "linear-gradient(54deg, rgba(240,155,6,0.9668242296918768) 34%, rgba(143,87,2,1) 58%, rgba(137,84,3,1) 71%, rgba(15,15,15,0.5634628851540616) 91%)",
+            "linear-gradient(54deg, rgba(33,32,31,0.9668242296918768) 25%, rgba(143,61,2,1) 45%, rgba(140,61,8,1) 66%, rgba(216,77,19,1) 85%)",
           color: "white",
           borderTop: "white 4px solid",
         }}
       >
+        <img src={logofooter} />
         <h2>Contacto@rionegrotv.cl</h2>
       </footer>
     </div>

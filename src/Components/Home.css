@@ -1,6 +1,6 @@
 
 .home  {
-  background-image: url('../Multimedia/Homeimg/collage1.jpg') ;
+  background-image: url('../Multimedia/Homeimg/wallpaper.jpg') ;
   background-size: cover;
   width: 100%;   
 }
@@ -27,6 +27,20 @@ video {
   .onlyImages img {   
     align-self: center;
   }
+}
+
+#view-first{
+  background-image: url('../Multimedia/Homeimg/fondo1divhome.jpg') ;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+}
+
+#view-two{
+  background-image: url('../Multimedia/Homeimg/wallpaperdiv2.jpg') ;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
 }
 
 

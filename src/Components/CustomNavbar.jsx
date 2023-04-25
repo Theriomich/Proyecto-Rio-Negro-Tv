@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Nav, Container, NavLink } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import logoBlack from "../Multimedia/logo1.jpeg";
+import logoBlack from "../Multimedia/logoblancoSINfondo.png";
 import "./CustomNavbar.css";
 
 const CustomNavbar = () => {
@@ -12,9 +12,9 @@ const CustomNavbar = () => {
       bg="secundary"
       variant="dark"
       style={{
-        backgroundColor: "rgb(240,155,6)",
+        background: "rgb(45,43,39)",
         background:
-          "linear-gradient(54deg, rgba(240,155,6,0.9668242296918768) 34%, rgba(143,87,2,1) 58%, rgba(137,84,3,1) 71%, rgba(15,15,15,0.5634628851540616) 91%)",
+          "linear-gradient(54deg, rgba(45,43,39,0.9668242296918768) 28%, rgba(143,87,2,1) 45%, rgba(140,88,8,1) 71%, rgba(231,153,35,0.9360119047619048) 91%)",
         color: "white",
         borderBottom: "white 4px solid",
       }}
@@ -24,16 +24,15 @@ const CustomNavbar = () => {
           <img
             src={logoBlack}
             style={{
-              width: "80%",
-              height: "70%",
+              width: "60%",
+              height: "50%",
               borderRadius: "5%",
-              border: "white 5px solid",
             }}
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="me-auto" style={{}}>
             <Link className="link" to="/Content">
               Contenido
             </Link>
