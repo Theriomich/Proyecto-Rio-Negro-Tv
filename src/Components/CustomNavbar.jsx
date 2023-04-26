@@ -24,28 +24,55 @@ const CustomNavbar = () => {
           <img
             src={logoBlack}
             style={{
-              width: "60%",
+              width: "100px",
               height: "50%",
               borderRadius: "5%",
+              marginBottom: "5%",
             }}
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto" style={{}}>
-            <Link className="link" to="/Content">
+            <Link
+              className="link"
+              to="/Content"
+              style={{
+                marginTop: "5%",
+              }}
+            >
               Contenido
             </Link>
-            <Link className="link" to="/Channels/">
+            <Link
+              className="link"
+              to="/Channels/"
+              style={{
+                marginTop: "5%",
+              }}
+            >
               Canales
             </Link>
-            <Link className="link" as={NavLink} to="/Poduction Center/">
+            <Link
+              className="link"
+              as={NavLink}
+              to="/Poduction Center/"
+              style={{
+                marginTop: "3%",
+              }}
+            >
               Centro de Producciones
             </Link>
             <Link className="link" as={NavLink} to="/Television Mobiles/">
               Moviles de Televisión
             </Link>
-            <Link className="link" as={NavLink} to="/Transmissions/">
+            <Link
+              className="link"
+              as={NavLink}
+              to="/Transmissions/"
+              style={{
+                marginTop: "5%",
+              }}
+            >
               Transmisiones
             </Link>
             <Link className="link" as={NavLink} to="/Rights Management/">

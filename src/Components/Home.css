@@ -31,16 +31,37 @@ video {
 
 #view-first{
   background-image: url('../Multimedia/Homeimg/fondo1divhome.jpg') ;
-  background-size: cover;
-  height: 100vh;
+  background-size: cover; 
   display: flex;
+  width: 100%;
+ 
+ 
 }
 
 #view-two{
   background-image: url('../Multimedia/Homeimg/wallpaperdiv2.jpg') ;
   background-size: cover;
-  height: 100vh;
   display: flex;
+}
+
+@media (min-width: 881px) {
+  #view-first, #view-two {
+      height: 100vh;
+      
+  }
+}
+
+@media (max-width: 900px) {
+  #view-first img, #view-two img  {
+      width: 100%;
+  }
+}
+
+@media (max-width: 880px) {
+  #div-two img{
+    transform: scaleY(-1);
+     
+  }
 }
 
 

@@ -7,23 +7,30 @@
     width: 100%;
     height: 90px;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
+    display: flex;    
+   flex-direction: column-reverse;   
+   justify-content: flex-start;
+   align-items: flex-end;
+    
+  
 
         
   }
 
   .footer h2{
-    font-size: 15px;
-    text-align: center;
+    font-size: 12px;
+   text-align: center;
+    align-self:center;
+    
+   
    
   }
 
   .footer img{
-    width:15%;
+    width:120px;
     align-self: flex-end;
+    margin-right: 3%;
+    margin-bottom: 5%;
    
   }
 

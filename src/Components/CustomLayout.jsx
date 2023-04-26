@@ -18,7 +18,9 @@ function CustomLayout(prop) {
           borderTop: "white 4px solid",
         }}
       >
-        <img src={logofooter} />
+        <div className="img-footer">
+          <img src={logofooter} />
+        </div>
         <h2>Contacto@rionegrotv.cl</h2>
       </footer>
     </div>

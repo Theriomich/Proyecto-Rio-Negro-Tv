@@ -15,7 +15,13 @@ function Home() {
         <video autoPlay controls>
           <source src={videoInicio} type="video/mp4" />
         </video>
-        <div id="view-first">
+        <div
+          id="view-first"
+          className="samples__item__picture wow fadeInUp"
+          data-wow-offset="90"
+          data-wow-duration="1s"
+          style={{ visibility: "visible", animationDuration: "1s" }}
+        >
           <TextAndImageContainer
             text="RÍO NEGRO TELEVISIÓN es una empresa generadora de contenido fundada el año 2001
 con un fuerte carácter periodístico y tecnológico. Con base en Chile, hoy entregamos
@@ -26,7 +32,13 @@ de nuestros profesionales."
           />
         </div>
 
-        <div id="view-two">
+        <div
+          id="view-two"
+          className="samples__item__picture wow fadeInUp"
+          data-wow-offset="90"
+          data-wow-duration="1s"
+          style={{ visibility: "visible", animationDuration: "1s" }}
+        >
           <TextAndImageContainer
             text="El volumen de los recursos técnicos propios hacen de RÏO NEGRO TELEVISION una
           compañía capaz de ofrecer soluciones integrales, creativas y eficientes."
@@ -34,10 +46,6 @@ de nuestros profesionales."
             imageSide="right"
             style={{ marginTop: "80px" }}
           />
-        </div>
-        <div className="onlyImages">
-          <img src={imagehomethree} />
-          <img src={imagehomefour} />
         </div>
       </div>
     </CustomLayout>

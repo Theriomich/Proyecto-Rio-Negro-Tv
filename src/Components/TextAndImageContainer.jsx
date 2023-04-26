@@ -31,8 +31,8 @@ function TextAndImageContainer({ image, text, imageSide, ...restOfProps }) {
           src={image}
           className="samples__item__picture wow fadeInUp"
           data-wow-offset="90"
-          data-wow-duration="4s"
-          style={{ visibility: "visible", animationDuration: "2s" }}
+          data-wow-duration="2s"
+          style={{ visibility: "visible", animationDuration: "1s" }}
           alt="img"
         />
       </>
@@ -45,8 +45,8 @@ function TextAndImageContainer({ image, text, imageSide, ...restOfProps }) {
           src={image}
           className="samples__item__picture wow fadeInUp"
           data-wow-offset="90"
-          data-wow-duration="4s"
-          style={{ visibility: "visible", animationDuration: "2s" }}
+          data-wow-duration="2s"
+          style={{ visibility: "visible", animationDuration: "1s" }}
           alt="img"
         />
 

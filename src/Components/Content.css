@@ -7,9 +7,10 @@ h1{
 
 
 .content  {
-    background-image: url('../Multimedia/Contenido img/FONDO.jpg') ;
-    background-size: cover;
+    
     width: 100%;   
+    background-color:rgba(0, 0, 0, 0.553)
+    
   }
 
   .content h1 {
@@ -17,4 +18,38 @@ h1{
       padding-top: 50px;
   }
 
+  #view-first-content{
+    background-image: url('../Multimedia/Contenido img/div1contenido.jpg');
+    background-size: cover; 
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    border-bottom: 30px solid rgba(255, 255, 255, 0.163)
+}
+
+#view-second-content{
+    background-image: url('../Multimedia/Contenido img/div2contenido.jpg');
+    background-size: cover; 
+    display: flex;
+    width: 100%;
+}
+
+.contentTitle{
+    background-image: url('../Multimedia/Contenido img/contenidotitlediv.jpg');
+    background-size: cover; 
+    height: 100vh;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: bottom;
+     border-bottom: 30px solid rgba(255, 255, 255, 0.163)
+
+}
+
+@media (max-width: 900px) {
+    #view-first-content img, #view-two-content img  {
+        width: 100%;
+    }
+  }
 

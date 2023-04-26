@@ -14,11 +14,12 @@
    height: auto;
    border: white 4px auto;   
    border-radius: 10px;
+  
 
 }
 
 #container-text {
-    width: 50%;
+    
     max-width: 400px;
     color: white;
     text-shadow: 1px 1px 3px #000000;
@@ -31,5 +32,7 @@
 @media (max-width: 900px) {
     .container-image, .container-text {
         width: 100%;
+       
     }
 }
+
