@@ -1,6 +1,7 @@
 import CustomNavbar from "./CustomNavbar";
 import "./CustomLayout.css";
 import logofooter from "../Multimedia/logo2.png";
+import brand from "../Multimedia/Brands/marca.png";
 
 function CustomLayout(prop) {
   const children = prop.children;
@@ -18,10 +19,21 @@ function CustomLayout(prop) {
           borderTop: "white 4px solid",
         }}
       >
+        <div className="brands">
+          <img src={brand} />
+          <img src={brand} />
+          <img src={brand} />
+          <img src={brand} />
+          <img src={brand} />
+          <img src={brand} />
+          <img src={brand} />
+        </div>
+        <div className="footerText">
+          <h2>Contacto@rionegrotv.cl</h2>
+        </div>
         <div className="img-footer">
           <img src={logofooter} />
         </div>
-        <h2>Contacto@rionegrotv.cl</h2>
       </footer>
     </div>
   );

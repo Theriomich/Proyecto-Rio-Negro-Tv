@@ -1,6 +1,6 @@
 import CustomLayout from "./CustomLayout";
 import TextAndImageContainer from "./TextAndImageContainer";
-import image from "../Multimedia/Canales img/IMG-1995.jpg";
+import image from "../Multimedia/Canales img/IMG-2801.jpg";
 import image2 from "../Multimedia/Canales img/IMG_0570.jpeg";
 import image3 from "../Multimedia/Canales img/TV.JPG";
 import "./ChannelsAdm.css";

@@ -11,10 +11,11 @@
   }
 
   #view-first-rights{
-    background-image: url('../Multimedia/Gestion de Derechos img/wallpaperdiv2rightss.jpg');
+    background-image: url('../Multimedia/Gestion de Derechos img/wallpapediv1rightss.jpg');
     background-size: cover; 
     display: flex;
-    width: 100%;    
+    width: 100%;  
+    height: 100vh;  
     border-bottom: 10px solid rgba(231, 220, 220, 0.239)
 }
 
@@ -23,6 +24,7 @@
     background-size: cover; 
     display: flex;
     width: 100%;
+    height: 100vh; 
 }
 
 .rightsTitle{

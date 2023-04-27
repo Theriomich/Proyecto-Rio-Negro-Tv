@@ -1,6 +1,6 @@
 import TextAndImageContainer from "./TextAndImageContainer";
 import CustomLayout from "./CustomLayout";
-import image from "../Multimedia/Transmisionesimg/video.JPG";
+import image from "../Multimedia/Transmisionesimg/IMG_1873.jpeg";
 import image2 from "../Multimedia/Transmisionesimg/IMG_1836.jpg";
 import "./Transmissions.css";
 function Transmissions() {
