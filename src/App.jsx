@@ -15,10 +15,10 @@ function App() {
     },
     { path: "/Content/", element: <Content /> },
     { path: "/Channels/", element: <ChannelsAdm /> },
-    { path: "/Poduction Center/", element: <ProductionCenter /> },
-    { path: "/Television Mobiles/", element: <TelevisionMobiles /> },
+    { path: "/Poduction_Center/", element: <ProductionCenter /> },
+    { path: "/Television_Mobiles/", element: <TelevisionMobiles /> },
     { path: "/Transmissions/", element: <Transmissions /> },
-    { path: "/Rights Management/", element: <RightsManagement /> },
+    { path: "/Rights_Management/", element: <RightsManagement /> },
   ]);
 
   return (

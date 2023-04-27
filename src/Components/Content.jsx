@@ -1,10 +1,6 @@
 import CustomLayout from "./CustomLayout";
 import image from "../Multimedia/Contenido img/IMG-3682.jpg";
 import image2 from "../Multimedia/Contenido img/IMG-2819.jpg";
-import image3 from "../Multimedia/Contenido img/IMG_3467.jpg";
-import image4 from "../Multimedia/Contenido img/IMG_1762.jpg";
-import fondo from "../Multimedia/Contenido img/FONDO.jpg";
-import wallpaperdiv1 from "../Multimedia/Contenido img/div1contenido.jpg";
 import TextAndImageContainer from "./TextAndImageContainer";
 import "./Content.css";
 function Content() {

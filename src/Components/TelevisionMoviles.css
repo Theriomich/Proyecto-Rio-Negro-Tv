@@ -1,0 +1,52 @@
+.television  {
+    
+    width: 100%;   
+    background-color:rgba(0, 0, 0, 0.553)
+    
+  }
+
+  .television h1 {
+   
+      padding-top: 50px;
+  }
+
+  #view-first-television{
+    background-image: url('../Multimedia/MovilesTv img/wallpaperdiv1televisionn.jpg');
+    background-size: cover; 
+    display: flex;
+    width: 100%;    
+    border-bottom: 30px solid rgba(16, 16, 16, 0.527);
+    background-position: center ;
+    margin-bottom: 10px;
+   
+}
+
+#view-second-television{
+    background-image: url('../Multimedia/MovilesTv img/wallpaperdiv2televisionn.jpg');
+    background-size: cover; 
+    display: flex;
+    width: 100%;
+  
+}
+
+
+
+.televisionTitle{
+    background-image: url('../Multimedia/MovilesTv img/wallpapertitletelevisionn.jpg');
+    background-size: cover; 
+    height: 100vh;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    margin-bottom: 10px;
+    
+
+}
+
+@media (max-width: 900px) {
+    #view-first-television img, #view-second-television img  {
+        width: 100%;
+    }
+  }

@@ -55,14 +55,14 @@ const CustomNavbar = () => {
             <Link
               className="link"
               as={NavLink}
-              to="/Poduction Center/"
+              to="/Poduction_Center/"
               style={{
                 marginTop: "3%",
               }}
             >
               Centro de Producciones
             </Link>
-            <Link className="link" as={NavLink} to="/Television Mobiles/">
+            <Link className="link" as={NavLink} to="/Television_Mobiles/">
               Moviles de Televisión
             </Link>
             <Link
@@ -75,7 +75,7 @@ const CustomNavbar = () => {
             >
               Transmisiones
             </Link>
-            <Link className="link" as={NavLink} to="/Rights Management/">
+            <Link className="link" as={NavLink} to="/Rights_Management/">
               Gestión de Derechos
             </Link>
           </Nav>

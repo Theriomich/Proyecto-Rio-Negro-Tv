@@ -1,0 +1,45 @@
+.production  {
+    
+    width: 100%;   
+    background-color:rgba(0, 0, 0, 0.553)
+    
+  }
+
+  .production h1 {
+   
+      padding-top: 50px;
+  }
+
+  #view-first-production{
+    background-image: url('../Multimedia/Canales img/div1channell.jpg');
+    background-size: cover; 
+    display: flex;
+    width: 100%;    
+    border-bottom: 10px solid rgba(231, 220, 220, 0.239)
+}
+
+#view-second-production{
+    background-image: url('../Multimedia/Canales img/div2channell.jpg');
+    background-size: cover; 
+    display: flex;
+    width: 100%;
+}
+
+.productionTitle{
+    background-image: url("../Multimedia/Centros de Producción img/wallpapertitleproductionn.jpg");
+    background-size: cover; 
+    height: 100vh;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+       
+
+}
+
+@media (max-width: 900px) {
+    #view-first-production img, #view-second-production img  {
+        width: 100%;
+    }
+  }

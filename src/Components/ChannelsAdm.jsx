@@ -10,15 +10,15 @@ function ChannelsAdm() {
     <CustomLayout>
       <div className="channels">
         <div className="channelsTitle">
-          <h1>Administrador de Canales</h1>;
+          <h1>Administración de Canales</h1>;
         </div>
 
         <div
           id="view-first-channel"
           className="samples__item__picture wow fadeInUp"
           data-wow-offset="90"
-          data-wow-duration="1s"
-          style={{ visibility: "visible", animationDuration: "1s" }}
+          data-wow-duration="0,5s"
+          style={{ visibility: "visible", animationDuration: "0,5s" }}
         >
           <TextAndImageContainer
             text="La ingenieria, construcción, desarrollo y puesta en el aire de canales de televisión es una de
@@ -31,8 +31,8 @@ function ChannelsAdm() {
           id="view-second-channel"
           className="samples__item__picture wow fadeInUp"
           data-wow-offset="90"
-          data-wow-duration="1s"
-          style={{ visibility: "visible", animationDuration: "1s" }}
+          data-wow-duration="0,5s"
+          style={{ visibility: "visible", animationDuration: "0,5s" }}
         >
           <TextAndImageContainer
             text="Estos proyectos han sido desarrollados desde nuestra fundación

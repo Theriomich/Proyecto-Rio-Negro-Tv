@@ -1,12 +1,9 @@
 import videoInicio from "../Multimedia/RIO NEGRO TELEVISION.mp4";
 import "./Home.css";
-import CustomNavbar from "./CustomNavbar";
 import CustomLayout from "./CustomLayout";
 import TextAndImageContainer from "./TextAndImageContainer";
 import ImageHome from "../Multimedia/Homeimg/IMG_2779.jpeg";
 import imagehometwo from "../Multimedia/Homeimg/IMG_6221.jpeg";
-import imagehomethree from "../Multimedia/Homeimg/three.JPG";
-import imagehomefour from "../Multimedia/Homeimg/four.JPG";
 
 function Home() {
   return (
