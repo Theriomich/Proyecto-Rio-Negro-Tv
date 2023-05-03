@@ -7,8 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "start": "react-scripts start",
-    "deploy": "gh-pages -d public/dist -b main"
+    "start": "react-scripts start"
+    
   },
   "dependencies": {
     "bootstrap": "^5.2.3",

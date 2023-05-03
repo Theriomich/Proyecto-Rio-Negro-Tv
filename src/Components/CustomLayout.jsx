@@ -29,7 +29,11 @@ function CustomLayout(prop) {
           <img src={brand} />
         </div>
         <div className="footerText">
-          <h2>Contacto@rionegrotv.cl</h2>
+          <h2>
+            Dirección: Río Negro Exequiel Fernández 3461, Macul. <br />
+            Contacto: gnur@rionegrotv.cl <br />© 2023. Todos los derechos
+            reservados.
+          </h2>
         </div>
         <div className="img-footer">
           <img src={logofooter} />
