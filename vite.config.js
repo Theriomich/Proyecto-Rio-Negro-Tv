@@ -9,7 +9,7 @@ export default defineConfig({
   build: {
     outDir: "dist",
     rollupOptions: {
-      external: ["/src/index.jsx"],
+      external: ["../src/index.jsx"],
     },
   },
 });
