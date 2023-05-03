@@ -38,8 +38,11 @@
   }
 
   .brands img{   
-      height:50px;
-      flex-wrap: wrap;     
+      height: 5% ;
+      width: 7%;
+      flex-wrap: wrap;  
+      margin: 2%;  
+       
   }
 
   .brands {
@@ -52,4 +55,38 @@
     .img-footer  img  {
       width:90px;
     }
+    .brands img{
+      height: 10% ;
+      width: 10%;
+    }
+
+  }
+
+ 
+
+  @media (max-width: 800px) {
+   
+    .brands img{
+      height: 8% ;
+      width: 8%;
+    }
+
+  }
+
+  @media (max-width: 760px) {
+   
+    .brands img{
+      height: 7% ;
+      width: 8%;
+    }
+
+  }
+
+  @media (max-width: 500px) {
+   
+    .brands img{
+      height: 10% ;
+      width: 10%;
+    }
+
   }
