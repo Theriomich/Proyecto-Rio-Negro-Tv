@@ -10,7 +10,7 @@ function ChannelsAdm() {
     <CustomLayout>
       <div className="channels">
         <div className="channelsTitle">
-          <h1>Administración de Canales</h1>;
+          <h1>Administración de Canales</h1>
         </div>
 
         <div

@@ -6,9 +6,17 @@
   }
 
   .production h1 {
-   
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
       padding-top: 50px;
   }
+
+  @media (min-width: 2000px) {
+    .production h1  {
+        font-size: 100px;
+    }
+  }
+
 
   #view-first-production{
     background-image: url('../Multimedia/Centros de Producción img/wallpapertdiv1productionn.jpg');
@@ -28,7 +36,7 @@
 .productionTitle{
     background-image: url("../Multimedia/Centros de Producción img/wallpapertitleproductionn.jpg");
     background-size: cover; 
-    height: 100vh;
+    height: 60vh;
     width: 100%; 
     display: flex;
     justify-content: center;

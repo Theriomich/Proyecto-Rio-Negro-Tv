@@ -1,6 +1,6 @@
 import CustomLayout from "./CustomLayout";
-import image from "../Multimedia/Contenido img/IMG-3682.jpg";
-import image2 from "../Multimedia/Contenido img/IMG-2819.jpg";
+import image from "../Multimedia/Contenido img/collagecontent1sn.png";
+import image2 from "../Multimedia/Contenido img/collagecontent2sn.png";
 import TextAndImageContainer from "./TextAndImageContainer";
 import "./Content.css";
 function Content() {
@@ -37,6 +37,7 @@ function Content() {
         contamos con profesionales altamente calificados en todas las fases del flujo creativo y
         productivo."
             image={image2}
+            image2={image}
             imageSide="right"
             style={{ marginTop: "80px" }}
           />

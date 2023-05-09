@@ -5,29 +5,44 @@
   width: 100%;   
 }
 
-video {
-  width: 50vw;
-  margin-top: 8%; 
-  margin-left: 25%;
+.video   {
+  width: 50vw;   
+  margin-top: 5%;
+ 
 }
+
+.container-video{
+  display: flex;
+  justify-content: center;
+  height:100vh
+  
+ 
+}
+
+@media (min-width: 2000px) {
+   
+
+  .video{
+    width: 500px;
+  }
+
+}
+
 
 @media (max-width: 900px) {
-  video {
-    width: 90vw;
-    margin-left: 5%;
+ .video  {
+    
+    margin-left: 4%;
+    margin-right: 4%;
+     
   }
 
-  .onlyImages {
-    width:100%;
-    flex-direction: column;
-    justify-content: center;
-    align-self: center;
-  }
-
-  .onlyImages img {   
-    align-self: center;
-  }
+  
 }
+
+
+
+
 
 #view-first{
   background-image: url('../Multimedia/Homeimg/fondo1divhome.jpg') ;
@@ -66,15 +81,3 @@ video {
 
 
 
-.onlyImages{
-  
-  display: flex;
-  justify-content: space-around;
-  
-}
-
-.onlyImages img{
-  width:40%;
-  margin-top:15%;
-  border-radius:10px
-}

@@ -1,17 +1,23 @@
-import videoInicio from "../Multimedia/RIO NEGRO TELEVISION.mp4";
 import "./Home.css";
 import CustomLayout from "./CustomLayout";
 import TextAndImageContainer from "./TextAndImageContainer";
 import ImageHome from "../Multimedia/Homeimg/IMG_2779.jpeg";
 import imagehometwo from "../Multimedia/Homeimg/IMG_6221.jpeg";
+import ReactPlayer from "react-player";
 
 function Home() {
   return (
     <CustomLayout>
       <div className="home">
-        <video autoPlay controls>
-          <source src={videoInicio} type="video/mp4" />
-        </video>
+        <div className="container-video">
+          <ReactPlayer
+            url="https://player.vimeo.com/video/824088159"
+            className="video"
+            playing
+            controls
+          />
+        </div>
+
         <div
           id="view-first"
           className="samples__item__picture wow fadeInUp"
