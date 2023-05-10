@@ -35,6 +35,15 @@ Nav a  {
   }
 
   .link{
+    font-size: 20px;
+            
+   }
+}
+
+@media (min-width: 4000px) {
+ 
+
+  .link{
     font-size: 40px;
             
    }

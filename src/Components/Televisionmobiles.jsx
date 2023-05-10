@@ -1,7 +1,7 @@
 import CustomLayout from "./CustomLayout";
 import TextAndImageContainer from "./TextAndImageContainer";
-import image from "../Multimedia/MovilesTv img/IMG-0031.jpg";
-import image2 from "../Multimedia/MovilesTv img/IMG-3025.jpg";
+import image from "../Multimedia/MovilesTv img/collagetvmobil1.png";
+import image2 from "../Multimedia/MovilesTv img/collagetvmobile2.png";
 import "./TelevisionMoviles.css";
 
 function TelevisionMobiles() {

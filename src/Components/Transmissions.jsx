@@ -1,7 +1,7 @@
 import TextAndImageContainer from "./TextAndImageContainer";
 import CustomLayout from "./CustomLayout";
-import image from "../Multimedia/Transmisionesimg/IMG_1873.jpeg";
-import image2 from "../Multimedia/Transmisionesimg/IMG_1836.jpg";
+import image from "../Multimedia/Transmisionesimg/collagetransimsion1.png";
+import image2 from "../Multimedia/Transmisionesimg/collagetransmision2.png";
 import "./Transmissions.css";
 function Transmissions() {
   return (

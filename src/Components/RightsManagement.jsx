@@ -1,7 +1,7 @@
 import CustomLayout from "./CustomLayout";
 import TextAndImageContainer from "./TextAndImageContainer";
-import image from "../Multimedia/Gestion de Derechos img/film.JPG";
-import image2 from "../Multimedia/Gestion de Derechos img/IMG_4911.jpg";
+import image from "../Multimedia/Gestion de Derechos img/collagegestion1.png";
+import image2 from "../Multimedia/Gestion de Derechos img/collagegestion2.png";
 import "./RightsManagment.css";
 
 function RightsManagement() {

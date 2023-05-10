@@ -1,7 +1,7 @@
 import CustomLayout from "./CustomLayout";
 import TextAndImageContainer from "./TextAndImageContainer";
-import image from "../Multimedia/Canales img/IMG-2801.jpg";
-import image2 from "../Multimedia/Canales img/IMG_0570.jpeg";
+import image from "../Multimedia/Canales img/collageadm1snnn.png";
+import image2 from "../Multimedia/Canales img/collage2snvrpng.png";
 import image3 from "../Multimedia/Canales img/TV.JPG";
 import "./ChannelsAdm.css";
 
@@ -36,23 +36,10 @@ function ChannelsAdm() {
         >
           <TextAndImageContainer
             text="Estos proyectos han sido desarrollados desde nuestra fundación
-            teniendo al aire actualmente múltiples ejemplos."
+            teniendo al aire actualmente múltiples ejemplos. Hoy contamos con la administración técnica y de contenido de dos canales de cobertura en
+            toda Latinoamérica."
             image={image2}
             imageSide="right"
-            style={{ marginTop: "80px" }}
-          />
-        </div>
-        <div
-          id="view-third-channel"
-          className="samples__item__picture wow fadeInUp"
-          data-wow-offset="90"
-          data-wow-duration="1s"
-          style={{ visibility: "visible", animationDuration: "1s" }}
-        >
-          <TextAndImageContainer
-            text="Hoy contamos con la administración técnica y de contenido de dos canales de cobertura en
-            toda Latinoamérica."
-            image={image3}
             style={{ marginTop: "80px" }}
           />
         </div>

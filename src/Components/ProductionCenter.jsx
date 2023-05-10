@@ -1,6 +1,6 @@
 import CustomLayout from "./CustomLayout";
-import image from "../Multimedia/Centros de Producción img/IMG_8381.jpeg";
-import image2 from "../Multimedia/Centros de Producción img/estudio.JPG";
+import image from "../Multimedia/Centros de Producción img/collageproductioncen1sn.png";
+import image2 from "../Multimedia/Centros de Producción img/collageproduction2.png";
 import TextAndImageContainer from "./TextAndImageContainer";
 import "./ProductionCenter.css";
 
