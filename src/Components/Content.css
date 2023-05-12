@@ -9,47 +9,51 @@ h1{
 .content  {
     
     width: 100%;   
-    background-color:rgba(0, 0, 0, 0.553)
+    background-color:rgb(255, 255, 255)
     
   }
 
   .content h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-      padding-top: 50px;
+    padding-top: 50px;
   }
 
   #view-first-content{
-    background-image: url('../Multimedia/Contenido img/div1contenido.jpg');
-    background-size: cover; 
-    display: flex;
-    width: 100%;   
-    border-bottom: 30px solid rgba(255, 255, 255, 0.163);
-     
+  
+    display: flex;          
+    overflow: hidden;
+    width: 100%; 
+    height: 100vh; 
+
 }
 
 #view-second-content{
-    background-image: url('../Multimedia/Contenido img/div2contenido.jpg');
-    background-size: cover; 
-    display: flex;
-    width: 100%;
-    border-bottom: 30px solid rgba(255, 255, 255, 0.163);
-    
+   
+    display: flex;         
+    overflow: hidden;
+    width: 100%; 
+    height: 100vh; 
 }
 
-
-
+@media (min-width: 881px) {
+  #view-first-content, #view-second-content {
+      height: 100vh;
+      
+  }
+}
 
 .contentTitle{
-    background-image: url('../Multimedia/Contenido img/contenidotitlediv.jpg');
+    background-image: url('../Multimedia/Contenido img/IMG_1878.jpeg');
     background-size: cover; 
-    height: 60vh;
+    height: 40vh;
     width: 100%; 
     display: flex;
     justify-content: center;
     align-items: center;
-    background-position: bottom;
-     border-bottom:1px solid rgba(255, 255, 255, 0.163)
+    background-position: center;
+    filter: grayscale(100%)
+    
 
 }
 
@@ -65,3 +69,5 @@ h1{
     }
   }
 
+  
+  

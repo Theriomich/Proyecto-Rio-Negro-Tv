@@ -1,8 +1,8 @@
 import "./Home.css";
 import CustomLayout from "./CustomLayout";
 import TextAndImageContainer from "./TextAndImageContainer";
-import ImageHome from "../Multimedia/Homeimg/IMG_2779.jpeg";
-import imagehometwo from "../Multimedia/Homeimg/IMG_6221.jpeg";
+import ImageHome from "../Multimedia/Homeimg/IMG_6221.jpeg";
+import imagehometwo from "../Multimedia/Homeimg/IMG-3259.jpg";
 import ReactPlayer from "react-player";
 
 function Home() {
@@ -47,7 +47,6 @@ de nuestros profesionales."
           compañía capaz de ofrecer soluciones integrales, creativas y eficientes."
             image={imagehometwo}
             imageSide="right"
-            style={{ marginTop: "80px" }}
           />
         </div>
       </div>

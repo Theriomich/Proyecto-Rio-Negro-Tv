@@ -1,7 +1,7 @@
 import CustomLayout from "./CustomLayout";
 import TextAndImageContainer from "./TextAndImageContainer";
-import image from "../Multimedia/MovilesTv img/collagetvmobil1.png";
-import image2 from "../Multimedia/MovilesTv img/collagetvmobile2.png";
+import image from "../Multimedia/MovilesTv img/pantallazul.JPG";
+import image2 from "../Multimedia/MovilesTv img/consola.jpeg";
 import "./TelevisionMoviles.css";
 
 function TelevisionMobiles() {
@@ -9,7 +9,7 @@ function TelevisionMobiles() {
     <CustomLayout>
       <div className="television">
         <div className="televisionTitle">
-          <h1>Móviles de Televisión</h1>;
+          <h1>Móviles de Televisión</h1>
         </div>
 
         <div
@@ -24,7 +24,6 @@ function TelevisionMobiles() {
           atender las distintas necesidades de producción tanto en Chile como en gran parte de
           Sudamerica."
             image={image}
-            style={{ marginTop: "80px" }}
           />
         </div>
         <div
@@ -39,7 +38,6 @@ function TelevisionMobiles() {
           producciones y transmisiones en directo para clientes de todo el mundo."
             image={image2}
             imageSide="right"
-            style={{ marginTop: "80px" }}
           />
         </div>
       </div>

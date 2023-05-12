@@ -26,29 +26,36 @@ function TextAndImageContainer({ image, text, imageSide, ...restOfProps }) {
         >
           {text}
         </p>
-        <img
-          id="container-image"
-          src={image}
-          className="samples__item__picture wow fadeInUp"
-          data-wow-offset="90"
-          data-wow-duration="2s"
-          style={{ visibility: "visible", animationDuration: "1s" }}
-          alt="img"
-        />
+        <div className="allImagesContainer">
+          <img
+            id="container-image-right"
+            src={image}
+            className="samples__item__picture wow fadeInUp"
+            data-wow-offset="90"
+            data-wow-duration="2s"
+            style={{
+              visibility: "visible",
+              animationDuration: "1s",
+            }}
+            alt="img"
+          />
+        </div>
       </>
     );
   } else {
     content = (
       <>
-        <img
-          id="container-image"
-          src={image}
-          className="samples__item__picture wow fadeInUp"
-          data-wow-offset="90"
-          data-wow-duration="2s"
-          style={{ visibility: "visible", animationDuration: "1s" }}
-          alt="img"
-        />
+        <div className="allImagesContainer">
+          <img
+            id="container-image-left"
+            src={image}
+            className="samples__item__picture wow fadeInUp"
+            data-wow-offset="90"
+            data-wow-duration="2s"
+            style={{ visibility: "visible", animationDuration: "1s" }}
+            alt="img"
+          />
+        </div>
 
         <p
           id="container-text"

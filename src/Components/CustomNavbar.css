@@ -9,7 +9,6 @@ Nav a  {
   height: 10%;
   
  
- 
 }
 
 @media (min-width: 992px) {
@@ -18,10 +17,7 @@ Nav a  {
             
   }
 
-  
 
- 
-  
 }
 
 @media (min-width: 2000px) {
@@ -54,10 +50,19 @@ Nav a  {
     border-bottom: 1px solid rgb(255, 255, 255)
            
   }
-  .me-auto .link {
+  .me-auto .link, .me-autonavbar-nav, .link {
     text-align: left;
+    align-items: normal;
+   
   }
  
+ 
+}
+
+@media (min-width: 991px){ 
+ .me-auto {
+  align-items: center;
+ }
 }
 
 nav {
@@ -70,12 +75,11 @@ nav {
   color: white;
   padding: 1%;
   margin: 2%;
-  display: inline;
-  width: 100%;
-  height: 10%;
-  justify-content: space-around;
+  font-size: 15px;
+  display: inline;  
+  justify-content: space-between;
   text-align:center;
-  font-weight: bold;
+  align-items: center;  
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
   
   
@@ -85,6 +89,37 @@ nav {
 .link:hover {
   color: rgb(228, 221, 221);
   text-decoration: underline;
+}
+
+.imgNavSlo{
+  display: flex;
+  justify-content: start;
+  align-content: start;
+ 
+}
+
+.imgSlo{
+  width:100px;
+ margin-right: 2%;
+ align-items: center;
+ 
+ 
+}
+
+@media (max-width: 645px) {
+  .imgSlo{
+    margin-left: 25%;
+           
+  }
+
+}
+
+@media (max-width: 830px) {
+  .imgNavSlo  {
+     opacity: 0;
+  }
+
+ 
 }
 
 

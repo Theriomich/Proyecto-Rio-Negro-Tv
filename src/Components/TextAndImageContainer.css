@@ -1,63 +1,129 @@
 .text-and-image-container {
-    width: 100%;
-    padding: 30px;
+    width: 100%;  
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     gap: 20px;
     display: flex;
     flex-wrap: wrap;
+  
 }
 
-#container-image {
-    width: 50%;
-     max-width: 400px;
-     height: auto;    
-    border: white 4px auto;    
- 
-
+#container-image-left {
+    width: 80%;            
+    height:70%;   
+    margin-top: 10%;    
+    left: 170px;  
+    
 }
 
+#container-image-right {
+    width: 80%;          
+    height:70%;   
+    margin-top: 10%;    
+    right: 220px;
+    
+}
+  
+.allImagesContainer{
+    background-color: #000000;       
+    height:100%;
+    width: 100%;
+    max-width: 538px;
+   ;
+    
+    
+}
 
 
 #container-text {
     
     max-width: 400px;
-    color: white;
-    text-shadow: 1px 1px 3px #000000;
+    color: rgb(86, 84, 84); 
     text-align:left;
-    background-color: #00000066;
+    background-color: #e1e0e066;
     padding: 10px;
     border-radius: 10px;
     font-family: 'Montserrat', sans-serif;
    
-   
     
-    
+           
 }
 
 @media (max-width: 900px) {
-    .container-image, .container-text {
-        width: 100%;
-       
+
+    .text-and-image-container{
+    padding: 0px;
     }
        
     }
 
-    @media (min-width: 880px) {
-        #container-image  {
-          width: 50%;
-            max-width: 40%;}
-    }
+  
 
-    @media (max-width: 500px) {
+    @media (max-width: 520px) {
         #container-text  {
             text-align:center; }
+
+            .text-and-image-container{
+                margin: 5%;
+            }
+           
+         
+
     }
 
+    @media (max-width: 890px) {
+        
+
+            .allImagesContainer{
+               height: auto;
+            }
+
+            .text-and-image-container{
+
+                gap: 0%;
+                margin-top: 1%;
+                
+            }
+
+            #container-image-left {
+                border-bottom: 8px grey ;
+                
+            }
+                  
+
+    }
+
+    @media (max-width: 870px) { 
+        .allImagesContainer{
+        background: none;
+    }
+
+
+    
+    }
     @media (min-width: 880px) {
-        #container-text  {
-          
-            max-width: 40%;}
+       
+
+            .text-and-image-container{
+                justify-content: space-between;
+                
+            }
+
+            #container-image-right, #container-image-left{
+                position: absolute;
+            }
+
+            .allImagesContainer{
+                position:relative;
+            }
+
+            #container-text{
+                margin-left: 2%;
+                margin-right: 2%;
+                max-width: 380px;
+            }
+            
+
     }
 
     @media (min-width: 2000px) {
@@ -66,3 +132,4 @@
             
     }
 }
+

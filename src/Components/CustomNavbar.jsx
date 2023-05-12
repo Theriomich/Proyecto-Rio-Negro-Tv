@@ -2,6 +2,7 @@ import React from "react";
 import { Navbar, Nav, Container, NavLink } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import logoBlack from "../Multimedia/logoblancoSINfondo.png";
+import sloMo from "../Multimedia/logo2.png";
 import "./CustomNavbar.css";
 
 const CustomNavbar = () => {
@@ -15,9 +16,8 @@ const CustomNavbar = () => {
         background: "rgb(45,43,39)",
         background: "black",
         color: "white",
-        borderBottom: "white 4px solid",
+        borderBottom: "#f68e2e 4px solid",
         display: "flex",
-        justifyContent: "space-between",
       }}
     >
       <Container>
@@ -42,7 +42,6 @@ const CustomNavbar = () => {
             className="me-auto"
             style={{
               display: "flex",
-              alignItems: "center",
               justifyContent: "space-between",
             }}
           >
@@ -67,6 +66,11 @@ const CustomNavbar = () => {
           </Nav>
         </Navbar.Collapse>
       </Container>
+      <Navbar.Brand>
+        <div className="imgNavSlo">
+          <img className="imgSlo" src={sloMo} />
+        </div>
+      </Navbar.Brand>
     </Navbar>
   );
 };

@@ -1,7 +1,7 @@
 import CustomLayout from "./CustomLayout";
 import TextAndImageContainer from "./TextAndImageContainer";
-import image from "../Multimedia/Gestion de Derechos img/collagegestion1.png";
-import image2 from "../Multimedia/Gestion de Derechos img/collagegestion2.png";
+import image from "../Multimedia/Gestion de Derechos img/pantall1.jpeg";
+import image2 from "../Multimedia/Gestion de Derechos img/IMG_3409.jpg";
 import "./RightsManagment.css";
 
 function RightsManagement() {
@@ -9,9 +9,8 @@ function RightsManagement() {
     <CustomLayout>
       <div className="rights">
         <div className="rightsTitle">
-          <h1>Gestión de Derechos</h1>;
+          <h1>Gestión de Derechos</h1>
         </div>
-
         <div
           id="view-first-rights"
           className="samples__item__picture wow fadeInUp"
@@ -23,7 +22,6 @@ function RightsManagement() {
             text="La comercialización de derechos nacionales e internacionales de eventos puntuales o
             torneos son un área importante de nuestra gestión. "
             image={image}
-            style={{ marginTop: "80px" }}
           />
         </div>
         <div
@@ -39,7 +37,6 @@ function RightsManagement() {
             televisación."
             image={image2}
             imageSide="right"
-            style={{ marginTop: "80px" }}
           />
         </div>
       </div>

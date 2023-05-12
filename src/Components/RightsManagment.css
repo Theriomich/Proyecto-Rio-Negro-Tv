@@ -1,7 +1,7 @@
 .rights  {
     
     width: 100%;   
-    background-color:rgba(0, 0, 0, 0.553)
+    background-color:rgb(253, 253, 253)
     
   }
 
@@ -19,31 +19,31 @@
 
 
   #view-first-rights{
-    background-image: url('../Multimedia/Gestion de Derechos img/wallpapediv1rightss.jpg');
-    background-size: cover; 
+  
     display: flex;
     width: 100%;  
-    height: 100vh;  
-    border-bottom: 10px solid rgba(231, 220, 220, 0.239)
-}
+    height: 100vh;     
+    overflow: hidden;
+  }
 
 #view-second-rights{
-    background-image: url('../Multimedia/Gestion de Derechos img/wallpaperdiv2rightss.jpg');
-    background-size: cover; 
+   
     display: flex;
     width: 100%;
     height: 100vh; 
+    overflow: hidden;
 }
 
 .rightsTitle{
     background-image: url("../Multimedia/Gestion de Derechos img/wallpapertitlerightss.jpg");
     background-size: cover; 
-    height: 60vh;
+    height: 40vh;
     width: 100%; 
     display: flex;
     justify-content: center;
     align-items: center;
     background-position: center;
+    filter: grayscale(100%)
        
 
 }
@@ -53,3 +53,15 @@
         width: 100%;
     }
   }
+
+  @media (max-width: 960px) {
+    #view-first-rights, #view-second-rights  {
+        height: 70vh;
+    }
+
+    #view-first-rights{
+      border-bottom: 3px grey ;
+    }
+  }
+
+ 

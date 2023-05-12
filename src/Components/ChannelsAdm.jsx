@@ -1,8 +1,7 @@
 import CustomLayout from "./CustomLayout";
 import TextAndImageContainer from "./TextAndImageContainer";
-import image from "../Multimedia/Canales img/collageadm1snnn.png";
-import image2 from "../Multimedia/Canales img/collage2snvrpng.png";
-import image3 from "../Multimedia/Canales img/TV.JPG";
+import image from "../Multimedia/Canales img/IMG-2801.jpg";
+import image2 from "../Multimedia/Canales img/IMG_0570.jpeg";
 import "./ChannelsAdm.css";
 
 function ChannelsAdm() {
@@ -12,7 +11,6 @@ function ChannelsAdm() {
         <div className="channelsTitle">
           <h1>Administración de Canales</h1>
         </div>
-
         <div
           id="view-first-channel"
           className="samples__item__picture wow fadeInUp"
@@ -24,7 +22,6 @@ function ChannelsAdm() {
             text="La ingenieria, construcción, desarrollo y puesta en el aire de canales de televisión es una de
             nuestras fortalezas."
             image={image}
-            style={{ marginTop: "80px" }}
           />
         </div>
         <div
@@ -40,7 +37,6 @@ function ChannelsAdm() {
             toda Latinoamérica."
             image={image2}
             imageSide="right"
-            style={{ marginTop: "80px" }}
           />
         </div>
       </div>

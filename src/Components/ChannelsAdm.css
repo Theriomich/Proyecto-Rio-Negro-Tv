@@ -1,7 +1,7 @@
 .channels  {
     
     width: 100%;   
-    background-color:rgba(0, 0, 0, 0.553);
+    background-color:rgb(255, 255, 255);
   
     
   }
@@ -20,40 +20,31 @@
 
 
   #view-first-channel{
-    background-image: url('../Multimedia/Canales img/div1chanel.jpg');
-    background-size: cover; 
+  
     display: flex;
-    width: 100%;    
-    border-bottom: 30px solid rgba(16, 16, 16, 0.527);
-    background-position:center;
+    width: 100%; 
     height: 100vh; 
+    overflow: hidden;
 }
 
 #view-second-channel{
-    background-image: url('../Multimedia/Canales img/div2channell.jpg');
-    background-size: cover; 
+    
     display: flex;
     width: 100%;
     height: 100vh; 
-}
-
-#view-third-channel{
-    background-image: url('../Multimedia/Canales img/div3channell.jpg');
-    background-size: cover; 
-    display: flex;
-    width: 100%;
-    height: 100vh; 
+    overflow: hidden;
 }
 
 .channelsTitle{
-    background-image: url('../Multimedia/Canales img/wallpapertitleadmchanell.jpg');
+    background-image: url('../Multimedia/Canales img/72080e9e-dd51-42c2-ba25-24873d3f367c.JPG');
     background-size: cover; 
-    height: 60vh;
+    height: 40vh;
     width: 100%; 
     display: flex;
     justify-content: center;
     align-items: center;
     background-position: center;
+    filter: grayscale(100%)
    
     
 
@@ -73,3 +64,9 @@
     }
   }
 
+  @media (max-width: 960px) {
+    #view-first-channel, #view-second-channel {
+        height: 70vh;
+    }
+
+  }

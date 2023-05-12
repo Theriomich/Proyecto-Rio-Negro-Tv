@@ -1,7 +1,6 @@
 
 .home  {
-  background-image: url('../Multimedia/Homeimg/wallpaper.jpg') ;
-  background-size: cover;
+  background-color: white;
   width: 100%;   
 }
 
@@ -13,8 +12,8 @@
 
 .container-video{
   display: flex;
-  justify-content: center;
-  height:100vh
+  justify-content: center;  
+  width:100%
   
  
 }
@@ -22,8 +21,8 @@
 @media (min-width: 2000px) {
    
 
-  .video{
-    width: 500px;
+  .video {
+    width: 90vw;
   }
 
 }
@@ -41,28 +40,36 @@
 }
 
 
-
-
-
 #view-first{
-  background-image: url('../Multimedia/Homeimg/fondo1divhome.jpg') ;
-  background-size: cover; 
-  display: flex;
-  width: 100%;
+ 
+  display: flex;  
+  overflow: hidden;
  
  
 }
 
 #view-two{
-  background-image: url('../Multimedia/Homeimg/wallpaperdiv2.jpg') ;
-  background-size: cover;
+
   display: flex;
+  overflow: hidden;
 }
 
 @media (min-width: 881px) {
   #view-first, #view-two {
       height: 100vh;
       
+  }
+}
+
+
+
+@media (max-width: 500px) {
+  .container-video {
+      height: 40vh;
+           
+  }
+  .video{
+    margin-top: 10%;
   }
 }
 

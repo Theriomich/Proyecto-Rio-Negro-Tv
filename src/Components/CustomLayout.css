@@ -9,6 +9,7 @@
    align-items: center;
    flex-direction: column;
    flex-wrap: wrap;  
+   margin-top: 10%;
      
         
   }
@@ -122,3 +123,61 @@
     }
 
   }
+
+
+
+  .infoFooter{
+    display:inline-flex;    
+    justify-content: space-between;
+    align-items: center;      
+    color: #9e9998b6;
+    
+    
+  }
+
+  .contact{
+   
+    margin-left: 10%;
+    
+  }
+
+  .instagram{
+    
+    margin-left: 10%;
+    
+    
+  }
+
+  .footerText{
+
+   flex-direction: row;   
+    align-content: center;
+    
+
+  }
+
+  .contact img{
+    width:30%;   
+   border-right: 2px solid grey;
+
+  
+
+  }
+
+  .footerText img{
+    width:30%;
+    border-right: 2px solid grey;
+        
+    
+      }
+
+      .instagram img{
+        width:30%;
+        border-right: 2px solid grey;
+        
+       
+      }
+
+      .rightsReserved{
+        color: #9e9998b6;
+      }

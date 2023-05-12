@@ -1,6 +1,6 @@
 import CustomLayout from "./CustomLayout";
-import image from "../Multimedia/Centros de Producción img/collageproductioncen1sn.png";
-import image2 from "../Multimedia/Centros de Producción img/collageproduction2.png";
+import image from "../Multimedia/Centros de Producción img/IMG_8381.jpeg";
+import image2 from "../Multimedia/Centros de Producción img/verde.JPG";
 import TextAndImageContainer from "./TextAndImageContainer";
 import "./ProductionCenter.css";
 
@@ -9,9 +9,8 @@ function ProductionCenter() {
     <CustomLayout>
       <div className="production">
         <div className="productionTitle">
-          <h1>Centro de Producciones</h1>;
+          <h1>Centro de Producciones</h1>
         </div>
-
         <div
           id="view-first-production"
           className="samples__item__picture wow fadeInUp"
@@ -22,7 +21,6 @@ function ProductionCenter() {
           <TextAndImageContainer
             text="Dos estudios de televisión son hoy el centro de producción de Río Negro."
             image={image}
-            style={{ marginTop: "80px" }}
           />
         </div>
         <div
@@ -38,7 +36,6 @@ function ProductionCenter() {
             de las necesidades de cada proyecto."
             image={image2}
             imageSide="right"
-            style={{ marginTop: "80px" }}
           />
         </div>
       </div>

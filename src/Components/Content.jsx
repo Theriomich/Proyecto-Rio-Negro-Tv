@@ -1,6 +1,6 @@
 import CustomLayout from "./CustomLayout";
-import image from "../Multimedia/Contenido img/collagecontent1sn.png";
-import image2 from "../Multimedia/Contenido img/collagecontent2sn.png";
+import image from "../Multimedia/Contenido img/IMG-3682.jpg";
+import image2 from "../Multimedia/Contenido img/d5c7153d-cb93-4275-9322-5a588dbe288a.jpg";
 import TextAndImageContainer from "./TextAndImageContainer";
 import "./Content.css";
 function Content() {
@@ -8,7 +8,7 @@ function Content() {
     <CustomLayout>
       <div className="content">
         <div className="contentTitle">
-          <h1>Contenido</h1>;
+          <h1>Contenido</h1>
         </div>
 
         <div
@@ -22,7 +22,6 @@ function Content() {
             text="La creación de contenidos y el desarrollo de estos proyectos hasta transformarlos en
         programas ha sido siempre nuestro objetivo."
             image={image}
-            style={{ marginTop: "80px" }}
           />
         </div>
         <div
@@ -37,9 +36,7 @@ function Content() {
         contamos con profesionales altamente calificados en todas las fases del flujo creativo y
         productivo."
             image={image2}
-            image2={image}
             imageSide="right"
-            style={{ marginTop: "80px" }}
           />
         </div>
       </div>
