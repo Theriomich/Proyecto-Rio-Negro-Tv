@@ -16,7 +16,7 @@
 
   .footer h2{
     font-size: 12px;
-    text-align: center;
+    text-align: left;
     align-self:center;
     margin-top: 10%;
     font-family: 'Montserrat', sans-serif;
@@ -103,6 +103,15 @@
       width: 10%;
     }
 
+    .infoFooter{
+
+      justify-content: flex-start;
+      text-align: left;
+      
+    }
+
+   
+
   }
 
   @media (min-width: 2000px) {
@@ -124,40 +133,69 @@
 
   }
 
+  @media (min-width: 800px) {
+   
+
+    .infoFooter{
+
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+      
+    }
+
+    .footer h2{
+      text-align: center;
+    }
+  }
+
 
 
   .infoFooter{
-    display:inline-flex;    
-    justify-content: space-between;
+    
     align-items: center;      
     color: #9e9998b6;
+    width:100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+    align-content: left;
+    text-align: left;
+    flex-wrap: wrap;
+   
     
     
   }
 
   .contact{
    
-    margin-left: 10%;
+   
+    display: flex;
+    flex-direction: row;
+    
     
   }
 
   .instagram{
     
-    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
     
     
   }
 
   .footerText{
-
-   flex-direction: row;   
+   display: flex;
+    flex-direction: row;   
     align-content: center;
+    text-align: left;
     
 
   }
 
   .contact img{
-    width:30%;   
+    width:20%;   
    border-right: 2px solid grey;
 
   
@@ -165,14 +203,14 @@
   }
 
   .footerText img{
-    width:30%;
+    width:20%;
     border-right: 2px solid grey;
         
     
       }
 
       .instagram img{
-        width:30%;
+        width:40%;
         border-right: 2px solid grey;
         
        
