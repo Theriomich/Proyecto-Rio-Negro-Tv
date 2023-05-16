@@ -49,13 +49,13 @@ const CustomNavbar = () => {
               Contenido
             </Link>
             <Link className="link" to="/Channels/">
-              Canales
+              Administración de Canales
             </Link>
             <Link className="link" as={NavLink} to="/Poduction_Center/">
-              Centro de Producciones
+              Centro de Producción
             </Link>
             <Link className="link" as={NavLink} to="/Television_Mobiles/">
-              Moviles de Televisión
+              Móviles de Televisión
             </Link>
             <Link className="link" as={NavLink} to="/Transmissions/">
               Transmisiones

@@ -36,6 +36,20 @@ h1{
     height: 100vh; 
 }
 
+#view-third-content{
+     
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+
+}
+
+#view-third-content p {
+  display: none;
+  visibility: hidden
+}
+
 @media (min-width: 881px) {
   #view-first-content, #view-second-content {
       height: 100vh;
@@ -58,7 +72,7 @@ h1{
 }
 
 @media (max-width: 900px) {
-    #view-first-content img, #view-two-content img  {
+    #view-first-content img, #view-second-content img  {
         width: 100%;
     }
   }
@@ -67,6 +81,13 @@ h1{
     .content h1  {
         font-size: 100px;
     }
+  }
+
+  @media (max-width: 960px) {
+    #view-first-content, #view-second-content,#view-third-content{
+        height: 60vh;
+    }
+
   }
 
   

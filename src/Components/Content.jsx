@@ -1,6 +1,7 @@
 import CustomLayout from "./CustomLayout";
 import image from "../Multimedia/Contenido img/IMG-3682.jpg";
 import image2 from "../Multimedia/Contenido img/d5c7153d-cb93-4275-9322-5a588dbe288a.jpg";
+import image3 from "../Multimedia/Contenido img/img3.jpeg";
 import TextAndImageContainer from "./TextAndImageContainer";
 import "./Content.css";
 function Content() {
@@ -38,6 +39,15 @@ function Content() {
             image={image2}
             imageSide="right"
           />
+        </div>
+        <div
+          id="view-third-content"
+          className="samples__item__picture wow fadeInUp"
+          data-wow-offset="90"
+          data-wow-duration="0,5s"
+          style={{ visibility: "visible", animationDuration: "0,5s" }}
+        >
+          <TextAndImageContainer text={null} image={image3} />
         </div>
       </div>
     </CustomLayout>

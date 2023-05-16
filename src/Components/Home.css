@@ -13,7 +13,8 @@
 .container-video{
   display: flex;
   justify-content: center;  
-  width:100%
+  width:100%;
+  background-color: black;
   
  
 }
@@ -53,9 +54,37 @@
   display: flex;
   overflow: hidden;
 }
+#view-third{
+
+  display: flex;
+  overflow: hidden;
+ 
+}
+#view-four{
+
+  display: flex;
+  overflow: hidden;
+
+  
+}
+#view-five{
+
+  display: flex;
+  overflow: hidden;
+ 
+}
+
+#view-third p,#view-five p {
+  display: none;
+  visibility: hidden
+}
+
+#view-four p{
+  opacity: 0;
+}
 
 @media (min-width: 881px) {
-  #view-first, #view-two {
+  #view-first, #view-two,#view-third,#view-four,#view-five {
       height: 100vh;
       
   }
@@ -79,12 +108,12 @@
   }
 }
 
-@media (max-width: 880px) {
-  #div-two img{
-    transform: scaleY(-1);
-     
-  }
-}
 
+@media (max-width: 960px) {
+  #view-first, #view-two,#view-third,#view-four,#view-five {
+      height: 60vh;
+  }
+
+}
 
 

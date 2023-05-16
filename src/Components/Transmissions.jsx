@@ -2,6 +2,7 @@ import TextAndImageContainer from "./TextAndImageContainer";
 import CustomLayout from "./CustomLayout";
 import image from "../Multimedia/Transmisionesimg/pantallas.jpeg";
 import image2 from "../Multimedia/Transmisionesimg/IMG-0031.jpg";
+import image3 from "../Multimedia/Transmisionesimg/IMG_5569 redi.jpg";
 import "./Transmissions.css";
 
 function Transmissions() {
@@ -32,11 +33,19 @@ function Transmissions() {
           style={{ visibility: "visible", animationDuration: "0,5s" }}
         >
           <TextAndImageContainer
-            text="Contamos con tecnologías como telepuerto C/KU, móviles DSNG,
-          fibras y mochilas DMNG."
+            text="Usamos tecnologías como telepuerto C/KU, móviles DSNG, fibras y mochilas DMNG, además de los nuevos protocolos de transmisión."
             image={image2}
             imageSide="right"
           />
+        </div>
+        <div
+          id="view-third-transmissions"
+          className="samples__item__picture wow fadeInUp"
+          data-wow-offset="90"
+          data-wow-duration="0,5s"
+          style={{ visibility: "visible", animationDuration: "0,5s" }}
+        >
+          <TextAndImageContainer text={null} image={image3} />
         </div>
       </div>
     </CustomLayout>

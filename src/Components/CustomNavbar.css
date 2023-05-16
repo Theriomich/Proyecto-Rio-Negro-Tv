@@ -99,7 +99,7 @@ nav {
 }
 
 .imgSlo{
-  width:100px;
+  width:150px;
  margin-right: 2%;
  align-items: center;
  
@@ -117,6 +117,7 @@ nav {
 @media (max-width: 830px) {
   .imgNavSlo  {
      opacity: 0;
+     
   }
 
  

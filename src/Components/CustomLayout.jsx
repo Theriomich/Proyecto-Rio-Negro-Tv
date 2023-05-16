@@ -20,7 +20,9 @@ import brand17 from "../Multimedia/Brands/carozzi.png";
 import brand18 from "../Multimedia/Brands/direct.png";
 import brand19 from "../Multimedia/Brands/play.png";
 import brand20 from "../Multimedia/Brands/uichhile.png";
-
+import { BsInstagram } from "react-icons/bs";
+import { TfiEmail } from "react-icons/tfi";
+import { FaMapMarkedAlt } from "react-icons/fa";
 function CustomLayout(prop) {
   const children = prop.children;
   return (
@@ -67,7 +69,8 @@ function CustomLayout(prop) {
         </div>
         <div className="infoFooter">
           <div className="footerText">
-            <img src={map} alt="Instagram" />
+            <FaMapMarkedAlt />
+
             <h2>
               <strong>DIRECCIÓN</strong> <br />
               EXEQUIEL FERNÁNDEZ 3461, MACUL.
@@ -75,30 +78,34 @@ function CustomLayout(prop) {
           </div>
 
           <div className="contact">
-            <img src={emial} alt="Instagram" />
+            <TfiEmail />
             <h2>
               <strong>CONTACTO</strong> <br />
               GNUR@RIONEGROTV.CL
             </h2>
           </div>
           <div className="instagram">
+            <BsInstagram />
             <a
               href="https://www.instagram.com/rionegrotv/"
               target="_blank"
               rel="noopener noreferrer"
               className="instagramImg"
+              style={{
+                textDecoration: "none",
+                color: "#9e9998b6",
+              }}
             >
-              <img src={instagram} alt="Instagram" />
+              <h2>
+                <strong> SIGUENOS</strong> <br /> @RIONEGROTV
+              </h2>
             </a>
-            <h2>
-              <strong> SIGUENOS</strong> <br /> @RIONEGROTV
-            </h2>
           </div>
         </div>
         <div className="rightsReserved">
           <h2>
-            © 2023
-            <br /> Todos los derechos reservados.
+            <div className="year">© 2023</div>
+            Todos los derechos reservados.
           </h2>
         </div>
       </footer>

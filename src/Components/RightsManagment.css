@@ -33,7 +33,27 @@
     height: 100vh; 
     overflow: hidden;
 }
-
+#view-third-rights{
+   
+  display: flex;
+  width: 100%;
+  height: 100vh; 
+  overflow: hidden;
+}
+#view-four-rights{
+   
+  display: flex;
+  width: 100%;
+  height: 100vh; 
+  overflow: hidden;
+}
+#view-five-rights{
+   
+  display: flex;
+  width: 100%;
+  height: 100vh; 
+  overflow: hidden;
+}
 .rightsTitle{
     background-image: url("../Multimedia/Gestion de Derechos img/wallpapertitlerightss.jpg");
     background-size: cover; 
@@ -54,14 +74,36 @@
     }
   }
 
-  @media (max-width: 960px) {
-    #view-first-rights, #view-second-rights  {
-        height: 70vh;
+  @media (max-width: 500px) {
+    #view-third-rights p,#view-four-rights p,#view-five-rights p  {
+      display: none;
+      visibility: hidden
     }
+  
+  }
 
+
+  @media (max-width: 960px) {
+   
     #view-first-rights{
       border-bottom: 3px grey ;
     }
   }
 
  
+  @media (max-width: 960px) {
+    #view-first-rights, #view-second-rights,#view-third-rights,#view-four-rights,#view-five-rights {
+        height: 60vh;
+    }
+
+  }
+
+  #view-third-rights p,#view-five-rights p  {
+    display: none;
+    visibility: hidden
+  }
+
+  #view-four-rights p{
+    opacity: 0;
+  }
+
