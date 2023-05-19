@@ -4,8 +4,9 @@ import image from "../Multimedia/Gestion de Derechos img/IMG-7380.jpg";
 import image2 from "../Multimedia/Gestion de Derechos img/IMG_3409.jpg";
 import image3 from "../Multimedia/Gestion de Derechos img/IMG-9576.jpg";
 import image4 from "../Multimedia/Gestion de Derechos img/img4.JPG";
-import image5 from "../Multimedia/Gestion de Derechos img/IMG_4911.jpg";
+import image5 from "../Multimedia/Gestion de Derechos img/IMG-9781.jpg";
 import image6 from "../Multimedia/Gestion de Derechos img/IMG-0267.jpg";
+import image7 from "../Multimedia/Gestion de Derechos img/IMG-9767.jpg";
 import "./RightsManagment.css";
 
 function RightsManagement() {
@@ -69,6 +70,15 @@ function RightsManagement() {
             <img src={image4} />
           </div>
           <div
+            id="extra-images4"
+            className="samples__item__picture wow fadeInUp"
+            data-wow-offset="90"
+            data-wow-duration="1s"
+            style={{ visibility: "visible", animationDuration: "1s" }}
+          >
+            <img src={image6} />
+          </div>
+          <div
             id="extra-images3"
             className="samples__item__picture wow fadeInUp"
             data-wow-offset="90"
@@ -78,13 +88,13 @@ function RightsManagement() {
             <img src={image5} />
           </div>
           <div
-            id="extra-images4"
+            id="extra-images3"
             className="samples__item__picture wow fadeInUp"
             data-wow-offset="90"
             data-wow-duration="1s"
             style={{ visibility: "visible", animationDuration: "1s" }}
           >
-            <img src={image6} />
+            <img src={image7} />
           </div>
         </div>
       </div>

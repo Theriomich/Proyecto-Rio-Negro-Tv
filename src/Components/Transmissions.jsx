@@ -1,10 +1,11 @@
 import TextAndImageContainer from "./TextAndImageContainer";
 import CustomLayout from "./CustomLayout";
-import image from "../Multimedia/Transmisionesimg/IMG-7278.jpg";
+import image from "../Multimedia/Transmisionesimg/IMG-1535.jpg";
 import image2 from "../Multimedia/Transmisionesimg/IMG-2847.JPG";
 import image3 from "../Multimedia/Transmisionesimg/IMG_5569 redi.jpg";
 import image4 from "../Multimedia/Transmisionesimg/IMG-7227.jpg";
 import image5 from "../Multimedia/Transmisionesimg/IMG-5817.jpg";
+import image6 from "../Multimedia/Transmisionesimg/img6.JPG";
 
 import "./Transmissions.css";
 
@@ -74,6 +75,15 @@ function Transmissions() {
             style={{ visibility: "visible", animationDuration: "1s" }}
           >
             <img src={image5} />
+          </div>
+          <div
+            id="extra-images4"
+            className="samples__item__picture wow fadeInUp"
+            data-wow-offset="90"
+            data-wow-duration="1s"
+            style={{ visibility: "visible", animationDuration: "1s" }}
+          >
+            <img src={image6} />
           </div>
         </div>
       </div>

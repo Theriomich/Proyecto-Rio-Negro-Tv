@@ -59,7 +59,7 @@
 
 
 .transmissionsTitle{
-    background-image: url('../Multimedia/Transmisionesimg/titlewall.jpeg');
+    background-image: url('../Multimedia/Transmisionesimg/transmiciontitl.JPG');
     background-size: cover; 
     height: 40vh;
     width: 100%; 
@@ -82,6 +82,7 @@
     #view-first-transmissions , #view-second-transmissions , #view-third-transmissions   {
         height: 60vh;
     }
+ 
   }
 
   #conatiner-extra-images {

@@ -7,6 +7,7 @@ import image3 from "../Multimedia/Homeimg/img3.jpg";
 import image4 from "../Multimedia/Homeimg/img4.jpeg";
 import image5 from "../Multimedia/Homeimg/img5.JPG";
 import image6 from "../Multimedia/Homeimg/IMG-5828.jpg";
+import middle from "../Multimedia/Homeimg/IMG-6270.jpg";
 import ReactPlayer from "react-player";
 
 function Home() {
@@ -37,6 +38,23 @@ de nuestros profesionales."
             image={ImageHome}
             style={{ marginTop: "80px" }}
           />
+        </div>
+        <div
+          id="conatiner-middle-images"
+          className="samples__item__picture wow fadeInUp"
+          data-wow-offset="90"
+          data-wow-duration="1s"
+          style={{ visibility: "visible", animationDuration: "1s" }}
+        >
+          <div
+            id="middle"
+            className="samples__item__picture wow fadeInUp"
+            data-wow-offset="90"
+            data-wow-duration="1s"
+            style={{ visibility: "visible", animationDuration: "1s" }}
+          >
+            <img src={middle} />
+          </div>
         </div>
 
         <div
