@@ -83,3 +83,39 @@
         height: 60vh;
     }
   }
+
+  #conatiner-extra-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 5%;
+  }
+  
+  #extra-images1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  #extra-images1 img {
+    width: 70%;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  @media (max-width: 800px) {
+    #extra-images1 img {
+       width: 100%;
+      margin-left:6%;
+      margin-right:6%
+    }
+  
+    #conatiner-extra-images{
+      margin-left: 6%;
+      margin-right: 6%;
+    }
+  
+  }

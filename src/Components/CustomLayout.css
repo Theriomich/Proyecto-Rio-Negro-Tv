@@ -108,6 +108,7 @@
       text-align: center !important;
       max-width: 500vw;
       margin: 0 auto;
+      gap: 10px;
       
 
       
@@ -131,7 +132,17 @@
         text-align: center;
       }
 
+      .instagram{
+        margin-right: 5%;
+      }
+      .instagram svg{
+        margin-right: 5%;
+        font-size: 32px;
+      }
+      .instagram h2{
+        margin-left: 5%;
      
+      }
     }
 
 
@@ -164,6 +175,7 @@
     justify-content: space-around;
     align-items: center;
     align-content: center;
+    
       
     }
 
@@ -186,9 +198,7 @@
     margin-top: 1%;
     margin-bottom: 1%;
     text-align: left;
-  
-   
-    
+     
     
   }
 
@@ -199,15 +209,13 @@
     
     
   }
-
   
 
   .contact{
-   
-   
+      
     display: flex;
     flex-direction: row;
-    
+    gap:20px
     
   }
 
@@ -216,23 +224,28 @@
     display: flex;
     flex-direction: row;
     text-align: left;
-    
+    margin-top:5px;
+    gap:20px
     
   }
 
+  .instagram svg {
+    right:2%
+  }
 
 
   .footerText{
    display: flex;
    flex-direction: row;   
-    align-content: center;
-    text-align: left;
+  align-content: center;
+  text-align: left;
+  
     
 
   }
 
    svg{
-    border-right:1px solid #9e9998b6;
+    
     font-size: 30px;
     }
 

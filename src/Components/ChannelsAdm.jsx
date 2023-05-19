@@ -38,13 +38,21 @@ function ChannelsAdm() {
           />
         </div>
         <div
-          id="view-third-television"
+          id="conatiner-extra-images"
           className="samples__item__picture wow fadeInUp"
           data-wow-offset="90"
-          data-wow-duration="0,5s"
-          style={{ visibility: "visible", animationDuration: "0,5s" }}
+          data-wow-duration="1s"
+          style={{ visibility: "visible", animationDuration: "1s" }}
         >
-          <TextAndImageContainer text={null} image={image3} />
+          <div
+            id="extra-images1"
+            className="samples__item__picture wow fadeInUp"
+            data-wow-offset="90"
+            data-wow-duration="1s"
+            style={{ visibility: "visible", animationDuration: "1s" }}
+          >
+            <img src={image3} />
+          </div>
         </div>
       </div>
     </CustomLayout>

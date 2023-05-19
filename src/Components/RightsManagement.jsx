@@ -1,10 +1,11 @@
 import CustomLayout from "./CustomLayout";
 import TextAndImageContainer from "./TextAndImageContainer";
-import image from "../Multimedia/Gestion de Derechos img/pantall1.jpeg";
+import image from "../Multimedia/Gestion de Derechos img/IMG-7380.jpg";
 import image2 from "../Multimedia/Gestion de Derechos img/IMG_3409.jpg";
-import image3 from "../Multimedia/Gestion de Derechos img/img3.jpg";
+import image3 from "../Multimedia/Gestion de Derechos img/IMG-9576.jpg";
 import image4 from "../Multimedia/Gestion de Derechos img/img4.JPG";
-import image5 from "../Multimedia/Gestion de Derechos img/IMG_3409.jpg";
+import image5 from "../Multimedia/Gestion de Derechos img/IMG_4911.jpg";
+import image6 from "../Multimedia/Gestion de Derechos img/IMG-0267.jpg";
 import "./RightsManagment.css";
 
 function RightsManagement() {
@@ -43,31 +44,48 @@ function RightsManagement() {
           />
         </div>
         <div
-          id="view-third-rights"
-          className="samples__item__picture wow fadeInUp"
-          data-wow-offset="90"
-          data-wow-duration="0,5s"
-          style={{ visibility: "visible", animationDuration: "0,5s" }}
-        >
-          <TextAndImageContainer text={null} image={image3} />
-        </div>
-        <div
-          id="view-four-rights"
+          id="conatiner-extra-images"
           className="samples__item__picture wow fadeInUp"
           data-wow-offset="90"
           data-wow-duration="1s"
           style={{ visibility: "visible", animationDuration: "1s" }}
         >
-          <TextAndImageContainer text={null} image={image4} imageSide="right" />
-        </div>
-        <div
-          id="view-five-rights"
-          className="samples__item__picture wow fadeInUp"
-          data-wow-offset="90"
-          data-wow-duration="0,5s"
-          style={{ visibility: "visible", animationDuration: "0,5s" }}
-        >
-          <TextAndImageContainer text={null} image={image5} />
+          <div
+            id="extra-images1"
+            className="samples__item__picture wow fadeInUp"
+            data-wow-offset="90"
+            data-wow-duration="1s"
+            style={{ visibility: "visible", animationDuration: "1s" }}
+          >
+            <img src={image3} />
+          </div>
+          <div
+            id="extra-images2"
+            className="samples__item__picture wow fadeInUp"
+            data-wow-offset="90"
+            data-wow-duration="1s"
+            style={{ visibility: "visible", animationDuration: "1s" }}
+          >
+            <img src={image4} />
+          </div>
+          <div
+            id="extra-images3"
+            className="samples__item__picture wow fadeInUp"
+            data-wow-offset="90"
+            data-wow-duration="1s"
+            style={{ visibility: "visible", animationDuration: "1s" }}
+          >
+            <img src={image5} />
+          </div>
+          <div
+            id="extra-images4"
+            className="samples__item__picture wow fadeInUp"
+            data-wow-offset="90"
+            data-wow-duration="1s"
+            style={{ visibility: "visible", animationDuration: "1s" }}
+          >
+            <img src={image6} />
+          </div>
         </div>
       </div>
     </CustomLayout>

@@ -107,8 +107,12 @@
     @media (max-width: 870px) { 
         .allImagesContainer{
         background: none;
+        width: 100%;
+        margin-left: 2%;
+        margin-right: 2%;
     }
-
+    
+     
 
     
     }
@@ -132,7 +136,7 @@
             #container-text{
                 margin-left: 2%;
                 margin-right: 2%;
-                max-width: 380px;
+                max-width: 600px;
             }
             
 
@@ -141,10 +145,11 @@
     @media (min-width: 1900px) {
         #container-text  {
           font-size: 20px;
-          max-width: 900px;
+          max-width: 600px;
           margin-left: 5%;
             
     }
+   
 
      
 
@@ -164,25 +169,36 @@
   
 }
 
+@media (min-width: 1000px) {
+  
+    #container-text  {
+        font-size: 15px;         
+        max-width: 400px;
+          
+    }
+
+}
+
 @media (min-width: 1920px) {
   
 #container-text  {
-    font-size: 40px;
-    max-width: 600px;
+    font-size: 20px; 
     margin-left: 5%;
+    margin-right: 2%;
+    max-width: 650px;
       
 }
 
 
 #container-image-left {
 
-left: 350px;  
+left: 20%;  
 
 }
 
 #container-image-right {
   
-right: 320px;
+right: 17%;
 
 }
 

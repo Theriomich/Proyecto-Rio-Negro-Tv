@@ -114,16 +114,24 @@ nav {
 
 }
 
-@media (max-width: 830px) {
+@media (max-width: 1000px) {
   .imgNavSlo  {
-     opacity: 0;
+     display: none;
+     visibility: hidden;
      
   }
 
  
 }
 
+@media (min-width: 1200px) {
+  .imgSlo{
+    width:200px;
+    
+           
+  }
 
+}
 
 
 
