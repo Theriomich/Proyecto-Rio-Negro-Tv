@@ -4,6 +4,7 @@ import image2 from "../Multimedia/Centros de Producción img/verde.JPG";
 import image3 from "../Multimedia/Centros de Producción img/third.jpg";
 import image4 from "../Multimedia/Centros de Producción img/IMG-1743.jpg";
 import image5 from "../Multimedia/Centros de Producción img/IMG-3037.jpg";
+import image6 from "../Multimedia/Centros de Producción img/IMG-3562.jpg";
 import TextAndImageContainer from "./TextAndImageContainer";
 import "./ProductionCenter.css";
 
@@ -68,6 +69,15 @@ function ProductionCenter() {
             style={{ visibility: "visible", animationDuration: "1s" }}
           >
             <img src={image5} />
+          </div>
+          <div
+            id="extra-images2"
+            className="samples__item__picture wow fadeInUp"
+            data-wow-offset="90"
+            data-wow-duration="1s"
+            style={{ visibility: "visible", animationDuration: "1s" }}
+          >
+            <img src={image6} />
           </div>
         </div>
       </div>

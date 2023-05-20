@@ -76,9 +76,13 @@
   }
 
   @media (max-width: 960px) {
-    #view-first-production, #view-second-production{
+    #view-first-production{
         height: 60vh;
     }
+
+    #view-second-production{
+      height: 40vh;
+  }
 
   }
 
