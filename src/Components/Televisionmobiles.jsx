@@ -27,7 +27,7 @@ function TelevisionMobiles() {
             text="RIO NEGRO TELEVISION posee unidades móviles propias capaces de solucionar y
           atender las distintas necesidades de producción tanto en Chile como en gran parte de
           Sudamerica."
-            image={image}
+            image={image5}
           />
         </div>
         <div
@@ -76,7 +76,7 @@ function TelevisionMobiles() {
             data-wow-duration="1s"
             style={{ visibility: "visible", animationDuration: "1s" }}
           >
-            <img src={image5} />
+            <img src={image} />
           </div>
           <div
             id="extra-images4"
