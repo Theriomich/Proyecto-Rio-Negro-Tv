@@ -67,7 +67,7 @@ de nuestros profesionales."
           style={{ visibility: "visible", animationDuration: "1s" }}
         >
           <TextAndImageContainer
-            text="El volumen de los recursos técnicos propios hacen de RÏO NEGRO TELEVISION una
+            text="El volumen de los recursos técnicos propios hacen de RÍO NEGRO TELEVISIÓN una
           compañía capaz de ofrecer soluciones integrales, creativas y eficientes."
             image={imagehometwo}
             imageSide="right"

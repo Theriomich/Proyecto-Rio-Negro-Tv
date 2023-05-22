@@ -214,11 +214,9 @@
 
 }
 
-@media (min-width: 1920px) {
-  #view-first p{
- left: 8% !important;
+@media (min-width: 1900px) {
+  #extra-images1 img , #extra-images2 img ,#extra-images3 img,#extra-images4 img {
+     width: 50%;
     
-   
-   
   }
-  }
+}

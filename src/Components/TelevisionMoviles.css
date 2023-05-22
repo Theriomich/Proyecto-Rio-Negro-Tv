@@ -141,3 +141,10 @@
     }
   
   }
+
+  @media (min-width: 1900px) {
+    #extra-images1t img , #extra-images2 img ,#extra-images3 img,#extra-images4 img {
+       width: 50%;
+      
+    }
+  }

@@ -35,13 +35,18 @@
 
 #container-text {
     
-    max-width: 400px;
+    max-width: 470px;
     color: rgb(86, 84, 84); 
     text-align:left;
     background-color: #e1e0e066;
     padding: 10px;
     border-radius: 10px;
     font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    
+    
+    
+
    
     
            
@@ -136,7 +141,7 @@
             #container-text{
                 margin-left: 2%;
                 margin-right: 2%;
-                max-width: 600px;
+          
             }
             
 
@@ -145,7 +150,7 @@
     @media (min-width: 1900px) {
         #container-text  {
           font-size: 20px;
-          max-width: 600px;
+          max-width: 900px;
           margin-left: 5%;
             
     }
@@ -169,15 +174,7 @@
   
 }
 
-@media (min-width: 1000px) {
-  
-    #container-text  {
-        font-size: 15px;         
-        max-width: 400px;
-          
-    }
 
-}
 
 @media (min-width: 1920px) {
   
