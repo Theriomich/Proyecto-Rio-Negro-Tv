@@ -1,13 +1,14 @@
 import "./Home.css";
 import CustomLayout from "./CustomLayout";
 import TextAndImageContainer from "./TextAndImageContainer";
-import ImageHome from "../Multimedia/Homeimg/IMG_6221.jpeg";
+import ImageHome from "../Multimedia/Homeimg/IMG-9559.jpg";
 import imagehometwo from "../Multimedia/Homeimg/IMG-3259.jpg";
 import image3 from "../Multimedia/Homeimg/img3.jpg";
 import image4 from "../Multimedia/Homeimg/img4.jpeg";
 import image5 from "../Multimedia/Homeimg/img5.JPG";
 import image6 from "../Multimedia/Homeimg/IMG-5828.jpg";
 import image7 from "../Multimedia/Homeimg/IMG-6140.jpg";
+import image8 from "../Multimedia/Homeimg/IMG_6221.jpeg";
 import middle from "../Multimedia/Homeimg/collage.jpg";
 import ReactPlayer from "react-player";
 
@@ -123,6 +124,15 @@ de nuestros profesionales."
             style={{ visibility: "visible", animationDuration: "1s" }}
           >
             <img src={image7} />
+          </div>
+          <div
+            id="extra-images3"
+            className="samples__item__picture wow fadeInUp"
+            data-wow-offset="90"
+            data-wow-duration="1s"
+            style={{ visibility: "visible", animationDuration: "1s" }}
+          >
+            <img src={image8} />
           </div>
         </div>
       </div>
