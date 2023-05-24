@@ -60,10 +60,6 @@
 }
 
 
-
-
-
-
 @media (max-width: 900px) {
     #view-first-channel img, #view-second-channel img ,#view-third-channel img {
         width: 100%;
@@ -99,8 +95,8 @@
     
   }
   #extra-images1 img {
-    width: 70%;
-    max-width: 100%;
+    width: 60%;
+    max-width: 70%;
     height: auto;
   }
   

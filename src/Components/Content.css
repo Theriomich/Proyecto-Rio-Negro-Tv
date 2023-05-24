@@ -107,7 +107,7 @@ h1{
   }
   #extra-images1 img {
     width: 60%;
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
   }
   
@@ -115,6 +115,7 @@ h1{
   @media (max-width: 800px) {
     #extra-images1 img {
        width: 100%;
+       max-width: 100%;
       margin-left:6%;
       margin-right:6%
     }

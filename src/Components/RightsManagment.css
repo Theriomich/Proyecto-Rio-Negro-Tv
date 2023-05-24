@@ -123,6 +123,10 @@
   margin-top: 5%;
 }
 
+#conatiner-extra-images img {
+width:50%
+}
+
 #extra-images1 {
   display: flex;
   justify-content: center;
@@ -150,25 +154,25 @@
 
 #extra-images1 img {
   width: 60%;
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
 }
 
 #extra-images2 img {
   width: 60%;
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
 }
 
 #extra-images3 img {
   width: 60%;
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
 }
 
 #extra-images4 img {
   width: 60%;
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
 }
 
@@ -176,6 +180,7 @@
   #extra-images1 img , #extra-images2 img ,#extra-images3 img,#extra-images4 img {
      width: 100%;
     margin-left:6%;
+    max-width: 100%;
     margin-right:6%
   }
 
@@ -183,6 +188,8 @@
     margin-left: 6%;
     margin-right: 6%;
   }
+
+ 
 
 }
 

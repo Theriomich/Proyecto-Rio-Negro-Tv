@@ -38,7 +38,7 @@ function TelevisionMobiles() {
           style={{ visibility: "visible", animationDuration: "0,5s" }}
         >
           <TextAndImageContainer
-            text="Con un equipamiento de estándar internacional , hoy realizamos distintas
+            text="Con un equipamiento de estándar internacional, hoy realizamos distintas
           producciones y transmisiones en directo para clientes de todo el mundo."
             image={image2}
             imageSide="right"
@@ -52,7 +52,7 @@ function TelevisionMobiles() {
           style={{ visibility: "visible", animationDuration: "1s" }}
         >
           <div
-            id="extra-images1t"
+            id="extra-images1"
             className="samples__item__picture wow fadeInUp"
             data-wow-offset="90"
             data-wow-duration="1s"

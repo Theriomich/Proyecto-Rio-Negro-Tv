@@ -42,11 +42,9 @@
     padding: 10px;
     border-radius: 10px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
-    
-    
-    
-
+    font-size: 16px;
+   ;
+ 
    
     
            
@@ -100,12 +98,7 @@
                 margin-top: 1%;
                 
             }
-
-            #container-image-left {
-                border-bottom: 8px grey ;
-                
-            }
-                  
+                    
 
     }
 
@@ -141,6 +134,7 @@
             #container-text{
                 margin-left: 2%;
                 margin-right: 2%;
+                padding: 40px;
           
             }
             

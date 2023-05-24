@@ -9,7 +9,7 @@ import image5 from "../Multimedia/Homeimg/img5.JPG";
 import image6 from "../Multimedia/Homeimg/IMG-5828.jpg";
 import image7 from "../Multimedia/Homeimg/IMG-6140.jpg";
 import image8 from "../Multimedia/Homeimg/IMG_6221.jpeg";
-import middle from "../Multimedia/Homeimg/collage.jpg";
+import middle from "../Multimedia/Homeimg/COLLAGE.jpg";
 import ReactPlayer from "react-player";
 
 function Home() {
